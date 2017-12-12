@@ -260,7 +260,7 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: a73db98cedcecce2ef4b496a1200cdac
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -275,7 +275,7 @@ mathjax:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
+baidushare: true
 ##  type: button
 
 # Share
