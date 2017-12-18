@@ -260,7 +260,7 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: a73db98cedcecce2ef4b496a1200cdac
+baidu_analytics: 6793943ebee3558917970a50987cf13b
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -275,8 +275,8 @@ baidu_analytics: a73db98cedcecce2ef4b496a1200cdac
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-baidushare: true
-##  type: button
+# baidushare: true
+# type: slide
 
 # Share
 #jiathis:
@@ -361,7 +361,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
