@@ -275,8 +275,8 @@ baidu_analytics: 6793943ebee3558917970a50987cf13b
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-# baidushare: true
-# type: slide
+baidushare:
+ type: slide
 
 # Share
 #jiathis:
