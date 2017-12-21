@@ -244,6 +244,10 @@ custom_logo:
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: normal
 
+# Social links
+social:
+  GitHub: https://github.com/lanpangzhi
+  知乎: http://www.zhihu.com/people/lan-pang-zi-93-58
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
