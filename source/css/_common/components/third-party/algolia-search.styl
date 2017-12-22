@@ -4,9 +4,11 @@
   height: 100%
   top: 0
   left: 0
-  z-index: 1000
+  z-index: 2080
   background-color: rgba(0, 0, 0, 0.3)
-
+  +mobile()
+    z-index: 1000
+    
 .algolia-popup
   overflow: hidden
   padding: 0
