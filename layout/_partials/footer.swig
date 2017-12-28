@@ -39,7 +39,7 @@
     #}NexT.{{ theme.scheme }}{#
   #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
 #}</div>
-<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+<p>Hosted by <a href="https://pages.coding.me" target="_blank" style="font-weight: bold">Coding Pages</a></p>
 {% endif %}
 
 {% if theme.footer.custom_text %}
