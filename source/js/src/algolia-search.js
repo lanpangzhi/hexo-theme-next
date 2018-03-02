@@ -38,6 +38,10 @@ $(document).ready(function () {
       templates: {
         item: function (data) {
           var link = data.permalink ? data.permalink : (CONFIG.root + data.path);
+          // 解决hexo-algolia包提交404页面链接，title空值问题
+          if (data.title === '' && data.permalink.indexOf('404') !== -1){
+            data._highlightResult.title.value = '腾讯公益404页面'
+          }
           return (
             '<a href="' + link + '" class="algolia-hit-item-link">' +
               data._highlightResult.title.value +
